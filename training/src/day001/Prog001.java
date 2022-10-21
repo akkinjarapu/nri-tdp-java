@@ -8,9 +8,9 @@ public class Prog001 {
 		
 		int b = 200;
 		
-		System.out.println(a + " " + b);
+		System.out.println(a);
 		
-		System.out.println(a + "\n" + b);
+		System.out.println(b);
 
 	}
 
