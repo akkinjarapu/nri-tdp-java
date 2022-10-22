@@ -10,6 +10,8 @@ public class Prog003 {
 		System.out.println(a + " " + b);
 		
 		System.out.println(a + "\n" + b);
+		
+		System.out.println(a + System.lineSeparator() + b);
 
 	}
 
