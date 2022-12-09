@@ -34,7 +34,7 @@ public class DPDemo001 {
 	
 	public static void main(String[] args) {
 		List<Pair> initialPairs = new ArrayList<Pair>();
-		initialPairs.add(new Pair(100));
+		initialPairs.add(new Pair(20));
 		
 		double prob = 0.25;
 		double sum = 0;
@@ -61,6 +61,8 @@ public class DPDemo001 {
 			if(generatedPairs.isEmpty())
 				break;
 		}
+		
+		System.out.printf("Final Probability = %.5f", sum);
 	}
 
 }
